@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(183, 236, 253);
+  }
+  
+  h2 {
+    color: navy;
+    text-align: center;
+  }
+
+  img {
+      border-radius: 50%;
+      height: 100px;
+      width: 100px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  
+  }
+
+  button {
+    background-color: red;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 10%;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    left: 45%;
+    margin-top: 10px;
+  }
+  .column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+  }
+  
+  #animation{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 6s;
+    position: relative;
+    
+  }
+
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:100px; top:0px;}
+    50%  {background-color:blue; left:100px; top:100px;}
+    75%  {background-color:green; left:0px; top:100px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
